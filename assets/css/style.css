@@ -9,7 +9,7 @@ body{
 }
 
 /*Bannière d'entêye*/
-#header{
+#fondbois{
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 30%;
@@ -164,3 +164,4 @@ footer{
     #map{
         margin-left: 25%;
     }
+}
