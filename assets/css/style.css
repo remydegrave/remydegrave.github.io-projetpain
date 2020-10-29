@@ -14,19 +14,55 @@ body {
     margin-top: 70px;
 }
 
-.card {
-    margin-bottom: 20px;
-    font-size: 20px;
+h2 {
     font-weight: bold;
+    font-size: 50px;
+}
+
+h4 {
+    font-weight: 20px;
+    font-weight: bold;
+}
+
+#viennoiseries {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#prix-unit-lot{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#brioches {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#prix {
+    font-weight: bold;
+    margin-right: 20px;
+    line-height: 32px;
 
 }
 
-.card img {
-    margin-bottom: 20px;
+#prix-b {
+    line-height: 32px;
+    margin-top: 35px;
+    margin-right: 20px;
 }
 
-#liste-produits{
+#prix-b1{
+    margin-right: 20px;
+    line-height: 32px;
+    margin-bottom: 0%;
+}
 
+.card-text {
+    line-height: 32px;
+    margin-left: 20px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -93,5 +129,49 @@ footer {
         margin-top: 5px;
     }
 
+    h2{
+        font-size: 30px;
+    }
 
-}
+    h4 {
+        font-size: 15px;
+    }
+
+    #viennoiseries {
+        font-size: 15px;
+    }
+
+    #produit{
+        font-weight: lighter;
+    }
+
+    #brioches {
+        font-size: 15px;
+    }
+
+    #prix-unit-lot{
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    #prix {
+        font-weight:lighter;
+        margin-bottom: 10px;
+     
+    }
+
+    #prix-b{
+        margin-top: 30px;
+        font-weight: lighter; 
+    }
+    #prix-b1{
+        margin-top: 10px;
+        font-weight: lighter; 
+    }
+
+    #couverture{
+        width: 100%;
+        height: 90%;
+    }
+
+
