@@ -1,0 +1,109 @@
+body{
+    background-image:url("../images/board.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+} 
+
+#fondbois{
+    background: url(../images/woodwall.jpg);
+    height: 200px;  
+}
+#titre{
+    font-size: 50px;
+    margin-top: 70px;
+}
+
+/* card */
+.card {
+    
+    height: 250px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#photopain{
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: #A78267;
+}
+
+#facebook{
+    height: 50px;
+    width: 50px;
+}
+#insta{
+    height: 50px;
+    width: 50px;
+}
+#tripo{
+    height: 50px;
+    width: 50px;
+}
+#textfoot{
+  font-size: 15px ;  
+}
+
+
+@media screen and (max-width: 480px)
+{
+    #fondbois{
+        height: 150px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+    #titre{
+        justify-content: center;
+        font-size: 150%;
+        margin-top: 45px;
+    }
+
+    #TitrePain{
+        font-size: 40px;
+    }
+    #facebook{
+        height: 15px;
+        width: 15px;
+    }
+    #insta{
+        height: 15px;
+        width: 15px;
+    }
+    #tripo{
+        height: 15px;
+        width: 15px;
+    }
+    #textfoot{
+        font-size:8px ;  
+        float: left;
+        margin-top: 5px;
+      }
+      
+    
+}
+@media screen and (max-width: 480px){
+ 
+    .card {
+        margin: 20px;
+        height: 250px;
+        width: 250px;
+        margin-left: 30px;
+    }
+    #photopain{
+        margin: 20px;
+        height: 150px;
+        width: 200px;
+        margin-left: 25px;
+    }
+}
