@@ -14,19 +14,38 @@
     margin-top: 70px;
 }
 
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #000000 1px 0 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
 /* card */
 .card {
-    
-    height: 250px;
-    width: 350px;
+    height: 400px;
+    width: 450px;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 50px; 
+   
+
+
 }
 
 #photoburger{
-    height: 200px;
-    width: 300px;
-    justify-content: center;
+    height: 300px;
+    width: 400px;
+margin-left: 25px;
+margin-top: 20px;
+
+}
+
+#textburg{
+    font-size: 20px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #000000 1px 0 10px;
+  
 }
 
 
@@ -35,6 +54,7 @@
 /* footer */
 footer{
     background-color: #A78267;
+    margin-top: 50PX;
 }
 
 #facebook{
@@ -58,6 +78,7 @@ footer{
 {
     #fondbois{
         height: 150px;
+        width: 420px;
     }
     img{
         height: 100px;
@@ -66,7 +87,7 @@ footer{
     }
     #titre{
         justify-content: center;
-        font-size: 290%;
+        font-size: 250%;
         margin-left: 60px;
         margin-top: 18px;
     }
@@ -87,15 +108,34 @@ footer{
         float: left;
         margin-top: 5px;
       }
-      
+       footer{
+        background-color: #A78267;
+        width: 342px;
+
+    }
     
 }
 @media screen and (max-width: 480px){
  
     .card {
-        margin: 20px;
-        height: 200px;
+       
+        height: 250px;
         width: 250px;
-        margin-left: 85px;
+        margin-left: 50px;
     }
+    #photoburger{
+        height: 150px;
+        width: 200px;
+        margin: 20px;
+
+    }
+    #textcard{
+        font-size: medium;
+    }
+    #textburg{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    
 }
